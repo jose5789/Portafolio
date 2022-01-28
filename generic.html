@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Generic - Hyperspace by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <!-- <a href="index.html" class="title">Administrador de Bares y Restaurantes.</a> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver</a></li>
+                <!-- <li><a href="generic.html" class="active">Generic</a></li> -->
+                <!-- <li><a href="elements.html">Elements</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1>Administrador de Bares y Restaurantes.</h1>
+                <p>Este administrador nos permite tener un restaurante en línea, permitiéndonos comprar diferentes productos, además de tener la capacidad de administrar nuestras mesas, meseros, ordenes, platillos, pedidos y usuarios junto a sus diferentes
+                    funcionalidades; este administrador es construido en base a la arquitectura MVC y a un diseño relacional de nuestra base de datos, lo cual nos permite asociar nuestros diferentes módulos para así poder mostrar en un modulo la información
+                    relacionada con la que esté asociada en otro modulo, poseemos en cada uno de nuestros módulos cruds y acciones más especificas usadas en cada modulo teniendo la capacidad de limitar su uso en base al perfil del usuario.
+                </p>
+                <hr>
+
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 7</div>
+                        <img src="images/restaurante1.jpeg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 7</div>
+                        <img src="images/restaurante2.jpeg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 7</div>
+                        <img src="images/resta3.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 7</div>
+                        <img src="images/resta4.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 7</div>
+                        <img src="images/resta5.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 7</div>
+                        <img src="images/resta6.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 7</div>
+                        <img src="images/resta7.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+
+                    <script>
+                        var slideIndex = 0;
+                        showSlides();
+
+                        function showSlides() {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > slides.length) {
+                                slideIndex = 1
+                            }
+                            slides[slideIndex - 1].style.display = "block";
+                            setTimeout(showSlides, 2500); // Change image every 2 seconds
+                        }
+                    </script>
+
+                </div>
+        </section>
+
+        </div>
+
+
+        <br>
+
+
+        <!-- Footer -->
+        <footer id="footer" style="background-color: ff533d; text-align: center;">
+
+            <ul class="menu">
+                <li>
+                    <p style="background-color: whitesmoke;">&copy; <strong> Portafolio Jose Zuluaga Salazar.</strong></p>
+                </li>
+            </ul>
+
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

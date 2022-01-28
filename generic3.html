@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Generic - Hyperspace by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <!-- <a href="index.html" class="title">Administrador de Bares y Restaurantes.</a> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Volver</a></li>
+                <!-- <li><a href="generic.html" class="active">Generic</a></li> -->
+                <!-- <li><a href="elements.html">Elements</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1>Tienda PHP Nativo.</h1>
+                <p>Con esta tienda podemos gestionar diferentes productos y pedidos además de conocer en todo momento los estados de los mismos es decir en preparación, enviado, entregado, entre otros; además de su funcional carrito de compras cuenta con
+                    funciones tipo administrados para gestionar nuestros pedidos, productos y usuarios. En este proyecto podemos observar la creación de una estructura completa de directorios con el fin de poder generar orden en la distribución del código
+                    a través del patrón MVC y de la inclusión de includes para hacer de este proyecto una alternativa de desarrollo viable.
+                </p>
+                <hr>
+
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 7</div>
+                        <img src="images/tienda1.jpeg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 7</div>
+                        <img src="images/tienda2.jpeg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 7</div>
+                        <img src="images/tienda3.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 7</div>
+                        <img src="images/tienda4.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 7</div>
+                        <img src="images/tienda5.jpeg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+
+
+                    <script>
+                        var slideIndex = 0;
+                        showSlides();
+
+                        function showSlides() {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > slides.length) {
+                                slideIndex = 1
+                            }
+                            slides[slideIndex - 1].style.display = "block";
+                            setTimeout(showSlides, 2500); // Change image every 2 seconds
+                        }
+                    </script>
+
+                </div>
+        </section>
+
+        </div>
+
+
+        <br>
+
+
+        <!-- Footer -->
+        <footer id="footer" style="background-color: ff533d; text-align: center;">
+
+            <ul class="menu">
+                <li>
+                    <p style="background-color: whitesmoke;">&copy; <strong> Portafolio Jose Zuluaga Salazar.</strong></p>
+                </li>
+            </ul>
+
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
